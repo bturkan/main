@@ -9,19 +9,18 @@
 
 <body>
     <script>
-        let ad = prompt('Adinizi daxil edin:')
+         let ad = prompt ('Adinizi daxil edin:')
 
-        if (ad === 'admin') {
+        // if (ad === 'admin') {
+        //     if(prompt( 'Parolunzu daxil edin') ==='12345' ) {
+        //         console.log('Xos geldiniz admin!');
+        // } else{
+        //     console.log('Siz admin deyilsiniz!');
+        // }
 
-            if (prompt('Parolunzu daxil edin') === '12345') {
-                location.href = 'https://www.google.com'
-            } else {
-                console.log('Sehv parol!');
-
-            }
-        }
-
-
+        netice = (ad ==="admin") ? 'Xos gelmisiniz admin!' : 'Siz admin deyislisiniz!'
+        console.log(netice);
+        
 
 
 
